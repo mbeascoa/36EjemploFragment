@@ -8,11 +8,13 @@
     android:backgroundTint="@color/teal_200"
     tools:context=".PrimerFragmento">
 
-    <TextView
-        android:id="@+id/tv_Fragment"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btnPrimerFragment"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_below="@id/editTextFragment"
+        android:layout_alignParentEnd="true"
+        android:text="Poner Mayusculas Texto EditText"/>
 
     <EditText
         android:id="@+id/editTextFragment"
@@ -20,16 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_Fragment"
         android:inputType="textPersonName"
-        android:text="Name" />
-
-    <Button
-        android:id="@+id/btnPrimerFragment"
-        android:layout_width="wrap_content"
+        android:text=""/>
+    <TextView
+        android:id="@+id/tv_Fragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextFragment"
-        android:layout_alignParentEnd="true"
-
-        android:text="Button" />
-
-
+        android:text="Aquí irá en mayúsculas el texto editado en el EditText" />
 </RelativeLayout>
