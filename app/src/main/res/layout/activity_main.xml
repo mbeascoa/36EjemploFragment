@@ -11,7 +11,7 @@
         android:name="com.example.a36ejemplofragment.PrimerFragmento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="83dp"
+        android:layout_marginTop="125dp"
         android:layout_marginBottom="629dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
